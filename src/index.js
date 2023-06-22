@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter, Route, Routes, Link, NavLink } from 'react-router-dom';
 import './index.css';
+import { createStore } from 'redux';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+// const store = createStore();
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
